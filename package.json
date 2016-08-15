@@ -1,0 +1,31 @@
+{
+  "name": "hapi-router-cors",
+  "version": "1.0.0",
+  "description": "Opinionated route cors setting for hapi",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Guocover/hapi-router-cors.git"
+  },
+  "keywords": [
+    "hapi",
+    "spumko",
+    "routes",
+    "router"
+  ],
+  "author": "coverguo <coverguo@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Guocover/hapi-router-cors/issues"
+  },
+  "homepage": "https://github.com/Guocover/hapi-router-cors",
+  "devDependencies": {
+  },
+  "peerDependencies": {
+    "hapi": ">=8 || <=10"
+  },
+  "dependencies": {
+  }
+}
