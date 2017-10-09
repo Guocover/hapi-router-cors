@@ -5,13 +5,13 @@ make the route-level cors header setting
 hapi has its own attribute  cors to set global seting for request header "access-control-allow-origin",
 but this plugin is use for set the route-level-cors 
 
-#use
+# use
 
 ```javascript
 const server = new Hapi.Server();
 server.connection({ port: 80 });
 
-##absolute host
+## absolute host
 server.route({
     method: 'GET',
     path: '/',
@@ -25,7 +25,7 @@ server.route({
     }
 });
 
-##releative host
+## releative host
 server.route({
     method: 'GET',
     path: '/',
